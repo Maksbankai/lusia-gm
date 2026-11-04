@@ -36,10 +36,10 @@ document.querySelector('#replay').addEventListener('click', () => {
 });
 
 const messages = [
-  ['Masz w sobie więcej magii, niż myślisz.', '(づ｡◕‿‿◕｡)づ'],
+  ['Masz w sobie więcej magii, niż myślisz.', '(^_^) <3'],
   ['Mały krok też jest krokiem. Dasz radę, Lusiu!', '(^-^)b'],
-  ['Przesyłam Ci przytulasa na cały dzień.', '(つ≧▽≦)つ'],
-  ['Nie musisz robić wszystkiego naraz. Jestem po Twojej stronie.', '(=^･ω･^=)'],
+  ['Przesyłam Ci przytulasa na cały dzień.', '(>^_^)>'],
+  ['Nie musisz robić wszystkiego naraz. Jestem po Twojej stronie.', '(=^.^=)'],
   ['Świat jest piękniejszy, bo jesteś w nim Ty.', '(*^_^*) <3'],
   ['Jesteś moim ulubionym powodem do uśmiechu.', ':) <3']
 ];
