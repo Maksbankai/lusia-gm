@@ -12,6 +12,6 @@ Publish the `main` branch from `/ (root)`. There is no build step and no third-p
 
 ## Mobile and motion
 
-The responsive layout accommodates iPhone 14 Pro's 393 × 852 CSS-pixel viewport, smaller phones, landscape and desktop. Safe-area spacing is supported. All content and interactions work without animation. Character movement runs twice and stops; there are no timers, animation loops, audio, video, canvas, analytics or external asset requests. The page respects `prefers-reduced-motion` and provides a manual calm-mode toggle. JavaScript-free visitors receive a text version of the message.
+The responsive layout accommodates iPhone 14 Pro's 393 × 852 CSS-pixel viewport, smaller phones, landscape and desktop. Safe-area spacing is supported. All content and interactions work without animation. Character movement runs twice and stops; there are no timers, animation loops, audio, video, canvas, analytics or external asset requests. The page respects `prefers-reduced-motion`. JavaScript-free visitors receive a text version of the message.
 
 Hello Kitty, My Melody and Cinnamoroll are characters belonging to Sanrio. This is an unofficial personal fan greeting, with no affiliation to Sanrio.

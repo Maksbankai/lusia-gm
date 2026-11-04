@@ -7,8 +7,8 @@
   <meta name="description" content="Mała przesyłka pełna miłości. Lusia, ten piękny dzień należy do Ciebie. Od Maksiu <3">
   <title>Dla Lusi, z miłością ♡</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
-  <script src="script.js" defer></script>
+  <link rel="stylesheet" href="styles.css?v=2">
+  <script src="script.js?v=2" defer></script>
 </head>
 <body>
   <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -56,27 +56,16 @@
   </svg>
 
   <div class="page-shell">
-    <header class="topbar">
-      <a class="wordmark" href="./" aria-label="Mały świat Lusi — początek"><svg viewBox="0 0 80 45" aria-hidden="true"><use href="#bow"/></svg> mały świat Lusi<span class="wordmark-dot">.</span></a>
-      <button class="motion-toggle" type="button" aria-pressed="false" title="Włącz lub wyłącz delikatne animacje"><span class="motion-dot" aria-hidden="true"></span><span id="motion-label">spokojny tryb</span></button>
-    </header>
-
     <main>
       <section class="welcome" id="welcome" aria-labelledby="welcome-title">
         <div class="intro-copy">
-          <p class="eyebrow"><span></span> SPECJALNA PRZESYŁKA DLA CIEBIE</p>
           <h1 id="welcome-title">Hej, Lusia<span class="title-heart">♡</span><br><em>to dla Ciebie.</em></h1>
-          <p class="intro-description">Mała koperta, a w środku coś,<br>co ma wywołać Twój uśmiech.</p>
-          <div class="desktop-note"><span class="ascii">(=^.^=)</span><span>Zapakowano z miłością.<br>I odrobiną kociej magii.</span></div>
         </div>
 
         <div class="gift-area">
-          <div class="postmark" aria-hidden="true">POCZTA PEŁNA MIŁOŚCI <span>♡</span> DOSTAWA: PROSTO DO SERCA</div>
           <div class="gift-scene" aria-hidden="true">
             <div class="scene-oval"></div>
-            <span class="spark spark-one">✧</span><span class="spark spark-two">+</span><span class="spark spark-three">✧</span>
             <svg class="scene-cinna character" viewBox="0 0 300 180"><use href="#cinna"/></svg>
-            <span class="floating-heart heart-one">♡</span><span class="floating-heart heart-two">♡</span>
             <svg class="scene-melody character" viewBox="0 0 220 270"><use href="#melody"/></svg>
             <svg class="scene-kitty character" viewBox="0 0 240 260"><use href="#kitty"/></svg>
             <div class="envelope">
@@ -84,43 +73,34 @@
               <div class="envelope-front"></div>
               <div class="envelope-flap"></div>
               <span class="envelope-seal"><svg viewBox="0 0 32 30"><use href="#heart"/></svg></span>
-              <span class="envelope-stamp">z miłością<br><b>&lt;3</b></span>
             </div>
-            <span class="scene-caption">tylko dla Ciebie!</span>
           </div>
-          <button class="primary-button" id="open-letter" type="button">Otwórz swoją niespodziankę <svg viewBox="0 0 32 30" aria-hidden="true"><use href="#heart"/></svg></button>
-          <p class="button-note">jedno kliknięcie, dużo ciepła <span class="ascii">(^-^)</span></p>
+          <button class="primary-button" id="open-letter" type="button">Otworzyć &lt;3</button>
         </div>
       </section>
 
       <section class="letter-view" id="letter-view" aria-labelledby="letter-title" hidden>
-        <p class="eyebrow letter-eyebrow">DLA CIEBIE, Z CAŁEGO SERCA</p>
-        <h1 id="letter-title" tabindex="-1">Lusiu, niech to będzie<br><em>Twój piękny dzień.</em><span class="title-heart">♡</span></h1>
-        <p class="wish-intro">Życzę Ci cudownego, udanego i produktywnego dnia!<br class="desktop-break"> Niech wszystko idzie po Twojej myśli — krok po kroku, w Twoim tempie.</p>
+        <h1 id="letter-title" tabindex="-1">MIŁEGO DNIA <br><em>LUSIAPKUUUUU</em></h1>
         <article class="love-letter">
-          <span class="tape" aria-hidden="true"></span>
           <svg class="letter-kitty" viewBox="0 0 240 260" role="img" aria-label="Hello Kitty w różowej sukience"><use href="#kitty"/></svg>
           <div class="letter-content">
-            <p class="letter-salutation">Moja kochana Lusiu,</p>
+            <p class="letter-salutation">Moja kochana Lusia</p>
             <p class="proud">Jestem z ciebie<br><strong>NIEZMIERNIE<br class="small-break"> DUMNY!!!</strong></p>
-            <p class="letter-body">Z tego, jak się starasz. Z każdego małego kroku.<br class="desktop-break"> I z tego, jak piękną osobą jesteś.</p>
+            <p class="letter-body">Z tego, jak się starasz. Z każdego małego kroku i postępu.<br class="desktop-break"> I z tego, jak piękną osobą jesteś.</p>
             <p class="best">JESTEŚ NAJLEPSZĄ<br>DZIEWCZYNĄ EVER</p>
             <p class="letter-body last-line">Pamiętaj o małej przerwie i czymś dobrym dla siebie.<br class="desktop-break"> Twój uśmiech to moja ulubiona rzecz. <span class="ascii">:')</span></p>
             <p class="signature">od Maksiu&lt;3</p>
           </div>
           <svg class="letter-melody" viewBox="0 0 220 270" role="img" aria-label="My Melody z kwiatuszkiem"><use href="#melody"/></svg>
-          <span class="letter-doodle" aria-hidden="true">xoxo ♡</span>
         </article>
         <div class="extra-love">
           <p class="encouragement" id="encouragement" aria-live="polite" aria-atomic="true">Masz w sobie więcej magii, niż myślisz. <span class="ascii">(^_^) &lt;3</span></p>
           <button class="secondary-button" id="more-love" type="button">Jeszcze trochę miłości <span aria-hidden="true">＋</span></button>
-          <button class="replay-button" id="replay" type="button">Schowaj liścik do koperty ↗</button>
         </div>
       </section>
-      <noscript><p class="no-script">Lusiu, życzę Ci udanego i produktywnego dnia! Jestem z ciebie NIEZMIERNIE DUMNY!!! JESTEŚ NAJLEPSZĄ DZIEWCZYNĄ EVER. od Maksiu&lt;3</p></noscript>
+      <noscript><p class="no-script">MIŁEGO DNIA LUSIAPKUUUUU! Moja kochana Lusia, Jestem z ciebie NIEZMIERNIE DUMNY!!! JESTEŚ NAJLEPSZĄ DZIEWCZYNĄ EVER. od Maksiu&lt;3</p></noscript>
     </main>
 
-    <footer class="footer"><span>mały gest, wielkie uczucie.</span><span class="footer-center" aria-hidden="true">♡</span><span>zrobione dla Lusi <span class="ascii">&lt;3</span></span></footer>
   </div>
 </body>
 </html>

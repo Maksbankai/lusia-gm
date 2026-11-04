@@ -3,36 +3,12 @@
 const welcome = document.querySelector('#welcome');
 const letter = document.querySelector('#letter-view');
 const openButton = document.querySelector('#open-letter');
-const motionButton = document.querySelector('.motion-toggle');
-const motionLabel = document.querySelector('#motion-label');
-const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-let calm = reducedMotion.matches;
-
-function setCalm(value) {
-  calm = value;
-  document.documentElement.classList.toggle('calm', calm);
-  motionButton.setAttribute('aria-pressed', String(calm));
-  motionLabel.textContent = calm ? 'spokojny tryb: wł.' : 'spokojny tryb';
-}
-
-setCalm(calm);
-motionButton.addEventListener('click', () => setCalm(!calm));
-reducedMotion.addEventListener('change', event => setCalm(event.matches));
-
 openButton.addEventListener('click', () => {
   welcome.hidden = true;
   letter.hidden = false;
   letter.classList.add('is-entering');
   window.scrollTo({ top: 0, behavior: 'instant' });
   document.querySelector('#letter-title').focus({ preventScroll: true });
-});
-
-document.querySelector('#replay').addEventListener('click', () => {
-  letter.hidden = true;
-  letter.classList.remove('is-entering');
-  welcome.hidden = false;
-  window.scrollTo({ top: 0, behavior: 'instant' });
-  openButton.focus({ preventScroll: true });
 });
 
 const messages = [
